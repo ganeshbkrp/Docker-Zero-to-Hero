@@ -102,3 +102,8 @@ In one way docker compose is the AI version which generates you code when you en
 
 It is also the automated version where you enter the details when prompted and it gives you the necessary files. 
 
+11/10/25
+
+--> Docker Desktop/docker is inherently a Linux based container technology and for us to install Docker on a Windows desktop, we need to either enable/install WSL2 or Hyper-V(Virtualization). 
+--> When it comes to Windows server we do not need any WSL2 or HyperV enabled/installed because docker engine supports Windows containers. Incase we wan to run Linux Containers on Windows Server thenwe need to install/enable WS2 to run the containers.
+--> 
