@@ -105,5 +105,16 @@ It is also the automated version where you enter the details when prompted and i
 11/10/25
 
 --> Docker Desktop/docker is inherently a Linux based container technology and for us to install Docker on a Windows desktop, we need to either enable/install WSL2 or Hyper-V(Virtualization). 
+
 --> When it comes to Windows server we do not need any WSL2 or HyperV enabled/installed because docker engine supports Windows containers. Incase we wan to run Linux Containers on Windows Server thenwe need to install/enable WS2 to run the containers.
---> 
+
+13/10/25
+
+Docker is written in Go programming language and uses the several features of the Linux kernel to deliver it's functionality.
+Docker uses a technology called namespaces which allows the containers to operate in isolation from one another and from the underlyig host as well. 
+
+What do namespaces do?
+1. Isolate system Resources.
+2. Segregate processes
+3. Consistency: Enables running many independent applications and services on the same host without conflicts.
+
